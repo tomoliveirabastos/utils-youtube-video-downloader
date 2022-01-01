@@ -11,7 +11,7 @@
     "ytdl-core": "^4.9.2"
   },
   "scripts": {
-    "compile": "tsc ./*.ts --esModuleInterop"
+    "compile": "tsc ./*.ts --esModuleInterop --outDir dist"
   },
   "devDependencies": {
     "@types/node": "^17.0.5",
